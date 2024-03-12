@@ -634,7 +634,7 @@ window.addEventListener("load", function() {
         console.log(listedPlanets);
         // Below this comment call the appropriate helper functions to pick a planet fom the list of planets and add that information to your destination.
     })
-    
+
  });
 },{}],3:[function(require,module,exports){
 // Write your helper functions here!
@@ -655,30 +655,30 @@ function addDestinationInfo(document, name, diameter, star, distance, moons, ima
                  <img src="">
     */
  }
- 
+
  function validateInput(testInput) {
-    
+
  }
- 
+
  function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
-    
+
  }
- 
+
  async function myFetch() {
      let planetsReturned;
- 
+
      planetsReturned = await fetch().then( function(response) {
          });
- 
+
      return planetsReturned;
  }
- 
+
  function pickPlanet(planets) {
  }
- 
+
  module.exports.addDestinationInfo = addDestinationInfo;
  module.exports.validateInput = validateInput;
  module.exports.formSubmission = formSubmission;
- module.exports.pickPlanet = pickPlanet; 
+ module.exports.pickPlanet = pickPlanet;
  module.exports.myFetch = myFetch;
 },{"cross-fetch/polyfill":1}]},{},[2,3]);
